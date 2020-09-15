@@ -169,6 +169,11 @@ E-mail: safina.elmira.usa@gmail.com</pre>
         </section>
       <input type="button" value="Распечатать" onclick="print()"></input>
     </main>
+    <script>
+        if(document.documentElement.offsetwidth < 1200){
+            document.querySelector('input').style.display = "none";
+        }
+    </script>
   
 </body>
 </html>
